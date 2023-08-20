@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.picture__img img{
+    width: 25%;
+    border-radius: 100%;
+    border: 1px solid #eba622;
+}
+.picture__home img{
+    width: 100%;
+}
+.textMenu {
+    display: grid;
+    justify-content: end;
+}
+.h1__titulo {
+    font-family: 'Barriecito', cursive;
+}
