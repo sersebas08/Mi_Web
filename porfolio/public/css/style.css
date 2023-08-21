@@ -15,6 +15,31 @@
     display: grid;
     justify-content: end;
 }
-.h1__titulo {
+.font__family {
     font-family: 'Barriecito', cursive;
+}
+.logos {
+    background: url("../img/js.png") center;
+    height: 12rem;
+    width: 9rem;
+}
+.html5 {
+    background: url("../img/html5.png") center;
+    height: 12rem;
+    width: 9rem;
+}
+.csss {
+    background: url("../img/csss.png") center;
+    height: 12rem;
+    width: 9rem;
+}
+.laravele {
+    background: url("../img/laravele.png") center;
+    height: 12rem;
+    width: 9rem;
+}
+.react {
+    background: url("../img/reactt.png") center;
+    height: 12rem;
+    width: 9rem;
 }

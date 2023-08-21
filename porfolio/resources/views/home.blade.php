@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('index')
-    <h1 class="text-center pt-4 h1__titulo">SERSEBAS08</h1>
+    <h1 class="text-center pt-4 font__family">SERSEBAS08</h1>
     <div class="row text-center m-auto lh-lg py-4 px-2 rounded rounded-lg shadow ">
         <div class="col-12 col-md-6 m-auto">
             <picture class="picture__home w-10">
@@ -13,7 +13,7 @@
             </picture>
         </div>
         <div class="col-12 col-md-6 m-auto">
-            <h3 class="w-100 py-2">Algo sobre mi</h3>
+            <h3 class="w-100 py-2 font__family">About</h3>
             <p>
                 ¡Hola y bienvenido a mi página web! Soy un apasionado programador autodidacta con una insaciable sed
                 de conocimiento y una pasión ardiente por la creación digital. Desde los cimientos hasta las soluciones
@@ -21,5 +21,17 @@
                 de la programación.
             </p>
         </div>
+    </div>
+    <div class="row m-auto">
+        <div class="d-flex justify-content-center">
+            <p class="m-0 html5"></p>
+            <p class="m-0 csss"></p>
+            <p class="m-0 logos"></p>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="m-0 laravele"></p>
+            <p class="m-0 react"></p>
+        </div>
+
     </div>
 @endsection

@@ -4,7 +4,7 @@
 
 @section('index')
     <section>
-        <h1 class="text-center pt-4 h1__titulo">MIS PROYECTOS</h1>
+        <h1 class="text-center pt-4 font__family">MIS PROYECTOS</h1>
 
     </section>
 @endsection
