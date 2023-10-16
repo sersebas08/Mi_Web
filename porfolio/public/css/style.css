@@ -43,3 +43,6 @@
     height: 12rem;
     width: 9rem;
 }
+.textArea textarea {
+    resize: none;
+}

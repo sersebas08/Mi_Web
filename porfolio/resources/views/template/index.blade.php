@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -76,7 +76,7 @@
                         <a class="nav-link text-light" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-light" href="{{ route('proyectos') }}">Proyectos</a>
+                        <a class="nav-link text-light" href="{{ route('consultas') }}">Consultas</a>
                     </li>
 
                 </ul>
@@ -84,6 +84,9 @@
         </div>
     </nav>
     <main>
+        @if(Session::has('status.message'))
+            <div class="msgAlert bg-warning text-bold text-center p-1">{!!  Session::get('status.message') !!} </div>
+        @endif
         <section class="container min-vh-100">
             @yield('index')
         </section>

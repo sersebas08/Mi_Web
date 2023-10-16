@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('proyectos', [\App\Http\Controllers\HomeController::class, 'proyectos'])->name('proyectos');
+Route::get('consultas', [\App\Http\Controllers\HomeController::class, 'consultas'])->name('consultas');
+Route::post('create', [\App\Http\Controllers\HomeController::class, 'create'])->name('create');
