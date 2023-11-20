@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="row m-auto">
-        <div class="d-flex justify-content-center">
+       {{-- <div class="d-flex justify-content-center">
             <p class="m-0 html5"></p>
             <p class="m-0 csss"></p>
             <p class="m-0 logos"></p>
@@ -32,6 +32,6 @@
             <p class="m-0 laravele"></p>
             <p class="m-0 react"></p>
         </div>
-
+--}}
     </div>
 @endsection
